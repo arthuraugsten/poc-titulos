@@ -8,7 +8,7 @@ namespace Infra.Servicos.Rest
     // Conversar sobre essas classes ficarem na Infra ou na Api do respectivo tipo.
     public class ConversorRest43 : ConversorBase<InputRest43>, IConversor
     {
-        public LayoutFebraban Layout => LayoutFebraban.Layout44;
+        public LayoutFebraban Layout => LayoutFebraban.Layout43;
 
         public Task<Remessa> TransformarAsync(IData dados)
         {

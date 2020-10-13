@@ -7,7 +7,7 @@ namespace Infra.Validadores
 {
     public class Validador43 : IValidador
     {
-        public LayoutFebraban Layout => LayoutFebraban.Layout44;
+        public LayoutFebraban Layout => LayoutFebraban.Layout43;
 
         // Regra de validação do layout 4.4
         public Task<bool> ValidarAsync(Remessa entidade)
