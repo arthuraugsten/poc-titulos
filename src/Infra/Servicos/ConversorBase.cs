@@ -7,7 +7,7 @@ namespace Infra.Servicos
     {
         public TInput Converter(IData dados)
         {
-            if (dados is TInput) throw new ArgumentException(nameof(dados));
+            if (!(dados is TInput)) throw new ArgumentException(nameof(dados));
 
             return (TInput)dados;
         }
